@@ -128,6 +128,7 @@
                                 name="email"
                                 id="email"
                                 placeholder="john@example.com"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                             />
                             <p class="form-error">Vui lòng nhập trường này</p>
                         </div>
@@ -159,7 +160,11 @@
                             <p class="form-error">Vui lòng nhập trường này</p>
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="state">State</label>
+                            <label class="form-label" for="state"
+                                >State<span style="color: #a1a2a4">
+                                    (optional)</span
+                                ></label
+                            >
                             <input
                                 class="form-input"
                                 type="text"
