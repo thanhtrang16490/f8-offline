@@ -17,6 +17,8 @@
 
             .form-row {
                 display: flex;
+                gap: 55px;
+                margin-bottom: 20px;
             }
             .form-group {
                 flex-grow: 1;
@@ -25,7 +27,25 @@
             .form-label,
             .form-input {
                 display: block;
-                width: 90%;
+                width: 100%;
+            }
+
+            .form-input::placeholder {
+                color: #182126;
+            }
+
+            .form-error {
+                display: none;
+            }
+
+            .submit-btn {
+                margin-top: 8px;
+                width: 220px;
+                height: 44px;
+                font-size: 14px;
+                background-color: #07778b;
+                border: none;
+                color: #fff;
             }
         </style>
     </head>
@@ -158,13 +178,8 @@
                             <p class="form-error">Vui lòng nhập trường này</p>
                         </div>
                     </div>
-
-                    <div class="btn">
-                        <input
-                            class="form-input"
-                            type="submit"
-                            value="SEND ME FREE COFFEE"
-                        />
+                    <div class="form-row">
+                        <button class="submit-btn">SEND ME FREE COFFEE</button>
                     </div>
                 </form>
             </div>
