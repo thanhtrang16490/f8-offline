@@ -16,13 +16,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    margin-top: 55px;
+    gap: 14rem;
 }
 
 /* Contact info  */
+
 .heading {
-    font-size: 30px;
+    font-size: 2.8rem;
     position: relative;
+    margin-top: 55px;
 }
 
 .heading::before {
@@ -30,13 +32,13 @@ body {
     content: "";
     display: inline-block;
     width: 60px;
-    height: 4px;
+    height: 3px;
     background: #ffb736;
     top: 40px;
 }
 
 .info-title {
-    font-size: 22px;
+    font-size: 2.2rem;
     margin: 40px 0px;
 }
 
@@ -44,12 +46,14 @@ body {
     display: flex;
     margin: 20px 0;
     color: #999;
+    margin-bottom: 35px;
 }
 
 .info-item,
 i {
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
+    line-height: 1.2;
 }
 
 .value {
@@ -59,12 +63,11 @@ i {
 /* Contact Form  */
 .contact-form {
     width: 100%;
-    padding: 28px 32px;
 }
 
 .form-title {
     font-size: 22px;
-    margin: 40px 80px 40px 0;
+    padding: 123px 0 30px 0;
 }
 
 .form-group {
@@ -74,7 +77,6 @@ i {
 .form-input {
     display: block;
     width: 100%;
-
     outline: none;
     border: 1px solid #999;
     padding: 10px;
@@ -89,12 +91,17 @@ i {
     display: none;
 }
 
+textarea {
+    font-family: roboto;
+    height: 105px;
+}
+
 .submit-btn {
     margin-top: 8px;
     width: 130px;
     height: 38px;
-    font-size: 14px;
+    font-size: 1.4rem;
     background-color: #109d9c;
     border: none;
-    color: #fff;
+    color: #eefafa;
 }
