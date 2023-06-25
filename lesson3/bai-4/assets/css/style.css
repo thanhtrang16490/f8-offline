@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.tab-bar {
+    margin: 30px;
+    display: inline-flex;
+}
+
+.tab-bar > .tab-item {
+    background-color: #fff;
+    color: #b09757;
+    padding: 10px 20px;
+    border: 1px solid #b09757;
+}
+
+.tab-bar > .tab-item .active {
+    background-color: #b09757;
+}
