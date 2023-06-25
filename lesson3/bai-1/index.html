@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lesson 3 - Bài 1: Form liên hệ</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+    </head>
+    <body>
+        <h1 class="heading">CONTACT US</h1>
+        <div class="container">
+            <!-- Contact info  -->
+            <section class="contact-info">
+                <h2 class="title">Contact Info</h2>
+                <div class="info-item">
+                    <span class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="value"
+                        >321 Awesome Street New York, NY 17022</span
+                    >
+                </div>
+                <div class="info-item">
+                    <span class="icon">
+                        <i class="far fa-envelope"></i>
+                    </span>
+                    <span class="value">info@companyname.com</span>
+                </div>
+                <div class="info-item">
+                    <span class="icon"> <i class="fas fa-phone-alt"></i> </span>
+                    <span class="value">+1 800 123 1234</span>
+                </div>
+            </section>
+            <!-- Contact form -->
+
+            <section class="contact-form">
+                <h2 class="title">Having Any Query! Or Book an appointment</h2>
+                <form
+                    action="https://api-gateway.fullstack.edu.vn/action_page.php"
+                    autocomplete="off"
+                    method="post"
+                >
+                    <div class="form-group">
+                        <input
+                            class="form-input"
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Your Name"
+                        />
+                        <p class="form-error">Please enter this field</p>
+                    </div>
+                    <div class="form-group">
+                        <input
+                            class="form-input"
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Your Email"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                        />
+                        <p class="form-error">Please enter this field</p>
+                    </div>
+                    <div class="form-group">
+                        <input
+                            class="form-input"
+                            type="text"
+                            name="subject"
+                            id="subjext"
+                            placeholder="Subject"
+                        />
+                        <p class="form-error">Please enter this field</p>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input textarea">Message</textarea>
+                        <p class="form-error">Please enter this field</p>
+                    </div>
+                    <button class="submit-btn" type="submit">
+                        SEND MESSAGE
+                    </button>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>

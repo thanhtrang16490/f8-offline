@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lesson 3 - Bài 4: Contact Map</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <title>Contact Map</title>
+    </head>
+    <body>
+        <main>
+            <!-- Begin tab-bar -->
+            <ul class="tab-bar">
+                <li class="tab-item active">United Arab Emirates</li>
+                <li class="tab-item">London</li>
+                <li class="tab-item">Singapore</li>
+                <li class="tab-item">Hong Kong</li>
+            </ul>
+            <!-- End tab-bar -->
+
+            <!-- Begin content -->
+            <section class="container">
+                <div class="content content-UAE active">
+                    <section class="address">
+                        <h2 class="heading">ADS SECURITIES L.L.C.</h2>
+                        <p class="info-contact">
+                            8th floor. CI Tower<br />Corniche road. PO Box
+                            93894<br />Abu Dhabi, United Arab Emirates
+                        </p>
+                        <p class="info-contact">
+                            Tel: +971 2 657 2300<br />Fax: +971 2 657 2323<br />Email:
+                            <a
+                                href="mailto:name@ads.securities.com?subject=subject text"
+                                >name@ads.securities.com</a
+                            >
+                        </p>
+                    </section>
+
+                    <!-- Begin map -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29051.413448972675!2d54.338670099999995!3d24.47066880000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e65e703e8e313%3A0xc29d6213e35ef641!2zQ0kgVG93ZXIgLSAzMm5kIFN0IC0gQWwgQmF0ZWVuIC0gVzEwIC0gQWJ1IERoYWJpIC0gQ8OhYyB0aeG7g3UgVsawxqFuZyBxdeG7kWMg4bqiIHLhuq1wIFRo4buRbmcgbmjhuqV0!5e0!3m2!1svi!2s!4v1687596211669!5m2!1svi!2s"
+                        width="600"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="map"
+                    ></iframe>
+                    <!-- End map -->
+                </div>
+
+                <div class="content content-London">
+                    <p class="empty">EMPTY.</p>
+                </div>
+
+                <div class="content content-Sing">
+                    <p class="empty">EMPTY.</p>
+                </div>
+
+                <div class="content content-HK">
+                    <p class="empty">EMPTY.</p>
+                </div>
+            </section>
+            <!-- End content -->
+        </main>
+    </body>
+</html>
