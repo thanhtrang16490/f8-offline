@@ -25,3 +25,28 @@ body {
 .tab-bar > .tab-item .active {
     background-color: #b09757;
 }
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+iframe {
+    width: 800px;
+}
+
+.address {
+    width: 500px;
+    padding: 30px;
+    background-color: #f6f6f6;
+}
+
+.not-show {
+    display: none;
+}
