@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Roboto;
+}
+
+.content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    display: block;
+    font-size: 3.2rem;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    text-align: center;
+    line-height: 1;
+}
+.heading::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background: #ffb736;
+    top: 40px;
+    left: 48%;
+}
+
+.feedback-list {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.feedback-item {
+    width: 25%;
+    margin-left: 100px;
+    padding: 38px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.avarta::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    background: #ffb736;
+    border-radius: 50%;
+}
+
+.avarta::after {
+    position: absolute;
+    content: "H";
+    display: inline-block;
+    color: #fff;
+}
