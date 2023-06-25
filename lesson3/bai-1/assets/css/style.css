@@ -1,20 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 body {
-    padding: 55px;
+    font-size: 1.6rem;
     font-family: Roboto;
 }
 
-.container {
-    max-width: 1200px;
+.content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    margin-top: 55px;
 }
 
 /* Contact info  */
 .heading {
-    font-size: 32px;
+    font-size: 30px;
+    position: relative;
 }
 
-.contact-info .title {
-    font-size: 24px;
+.heading::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    background: #ffb736;
+    top: 40px;
+}
+
+.info-title {
+    font-size: 22px;
     margin: 40px 0px;
 }
 
@@ -22,6 +44,12 @@ body {
     display: flex;
     margin: 20px 0;
     color: #999;
+}
+
+.info-item,
+i {
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .value {
@@ -34,9 +62,9 @@ body {
     padding: 28px 32px;
 }
 
-.contact-form .title {
-    font-size: 24px;
-    margin: 10px 40px 40px 0;
+.form-title {
+    font-size: 22px;
+    margin: 40px 80px 40px 0;
 }
 
 .form-group {
