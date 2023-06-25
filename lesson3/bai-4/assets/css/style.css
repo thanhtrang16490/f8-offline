@@ -11,8 +11,8 @@ body {
 }
 
 .tab-bar {
-    margin: 30px;
-    display: inline-flex;
+    margin: 50px 40px;
+    display: flex;
 }
 
 .tab-bar > .tab-item {
@@ -39,12 +39,28 @@ body {
 
 iframe {
     width: 800px;
+    height: 400px;
 }
 
 .address {
     width: 500px;
     padding: 30px;
     background-color: #f6f6f6;
+}
+
+.heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.info-contact {
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #b09757;
 }
 
 .not-show {
