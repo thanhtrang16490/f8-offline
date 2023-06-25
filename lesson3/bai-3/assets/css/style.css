@@ -1,4 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 body {
-    padding: 55px;
+    font-size: 1.4rem;
     font-family: Roboto;
+}
+
+.contact-form {
+    margin-top: 10px;
 }

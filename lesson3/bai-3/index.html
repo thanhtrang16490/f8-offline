@@ -8,6 +8,113 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
-        <h1 class="heading">CONTACT US</h1>
+        <main class="container">
+            <!-- Contact form -->
+            <div class="contact-form">
+                <form
+                    action="https://api-gateway.fullstack.edu.vn/action_page.php"
+                    autocomplete="off"
+                    method="post"
+                >
+                    <table class="table">
+                    <tr>
+                        <td>Username:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td>City of<br> Employment:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Web server:</td>
+                        <td>  <select class="form-input" id="server" name="server">
+                            <option value="0">-- Choose a sever --</option>
+                            <option value="1">Linux Sever</option>
+                            <option value="2">Window Sever</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4"><p>Please specify <br>your role:</p> </td>
+                        <td> <input
+                            class="form-input"
+                            type="radio"
+                            name="role"
+                            id="role"
+                        />
+                        <label>Admin</label></td>
+                    </tr>
+                    <tr>
+                        
+                        <td> <input
+                            class="form-input"
+                            type="radio"
+                            name="role"
+                            id="role"
+                        />
+                        <label>Engineer</label></td>
+                    </tr>
+                    <tr>
+                     
+                        <td><input
+                            class="form-input"
+                            type="radio"
+                            name="role"
+                            id="role"
+                        />
+                        <label>Manager</label></td>
+                    </tr>
+                    <tr>
+                        
+                        <td><input
+                            class="form-input"
+                            type="radio"
+                            name="role"
+                            id="role"
+                        />
+                        <label>Guest</label></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Single Sign-on<br> to the following</td>
+                        <td><input
+                            class="form-input"
+                            type="checkbox"
+                            name="checkbox-mail"
+                            id="checkbox-mail"
+                        />
+                        <label>Mail</label></td>
+                    </tr>
+                    <tr>
+                        
+                        <td><input
+                            class="form-input"
+                            type="checkbox"
+                            name="checkbox-payroll"
+                            id="checkbox-payroll"
+                        />
+                        <label>Payroll</label></td>
+                    </tr>
+                    <tr>
+                        
+                        <td><input
+                            class="form-input"
+                            type="checkbox"
+                            name="self-service"
+                            id="self-service"
+                        />
+                        <label>Self-service</label></td>
+                    </tr>
+                    <tr>
+                        
+                        <th><button>Login</button>
+                        <button >reset</button></th>
+                    </tr>
+
+                </form>
+            </div>
+        </main>
     </body>
 </html>
