@@ -15,8 +15,9 @@ body {
     display: flex;
 }
 
-.tab-item .active {
+.tab-item.active {
     background-color: #b09757;
+    color: #fff;
 }
 
 .tab-item {
