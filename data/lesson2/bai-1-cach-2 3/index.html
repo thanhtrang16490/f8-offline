@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bài số 1</title>
+        <style>
+            .heading,
+            h1 {
+                font-size: 34px;
+            }
+            .heading,
+            p {
+                width: 79%;
+                margin: 20px 0 42px 0;
+                font-size: 16px;
+            }
+            .container {
+                /* display: flex; */
+                width: 715px;
+                padding: 15px;
+                background-color: #e7e7e7;
+            }
+            .contact-form {
+                flex-grow: 1;
+            }
+
+            .form-row {
+                display: flex;
+                gap: 55px;
+                margin-bottom: 20px;
+            }
+            .form-group {
+                flex-grow: 1;
+            }
+
+            .form-label,
+            .form-input {
+                display: block;
+                width: 100%;
+            }
+
+            .form-input,
+            label {
+                margin-bottom: 5px;
+                font-family: arial;
+                font-size: 16px;
+            }
+
+            .form-input,
+            input {
+                border: 1px solid #bcbcbc;
+                height: 40px;
+            }
+
+            .form-input::placeholder {
+                color: #182126;
+            }
+
+            .form-error {
+                display: none;
+            }
+
+            .submit-btn {
+                margin-top: 8px;
+                width: 220px;
+                height: 44px;
+                font-size: 14px;
+                background-color: #07778b;
+                border: none;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container">
+            <!-- Contact info -->
+            <div class="heading">
+                <h1>Try a free sample</h1>
+                <p>
+                    Sign up to get a coupon you can redeem at your nearest
+                    Dancing Goat cafe for a sample of the Colombia Carlos
+                    Imbachi coffee. We'll also make sure you don't miss out on
+                    news introducing the new coffees that we add to our store
+                    regularly.
+                </p>
+            </div>
+
+            <!-- Contact form -->
+            <div class="contact-form">
+                <form action=" " autocomplete="off">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="first-name"
+                                >First Name</label
+                            >
+                            <input
+                                class="form-input"
+                                type="text"
+                                name="first-name"
+                                id="first-name"
+                                placeholder="John"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="last-name"
+                                >Last Name</label
+                            >
+                            <input
+                                class="form-input"
+                                type="text"
+                                name="last-name"
+                                id="last-name"
+                                placeholder="Smith"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="email"
+                                >Email address</label
+                            >
+                            <input
+                                class="form-input"
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="john@example.com"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="address"
+                                >Address</label
+                            >
+                            <input
+                                class="form-input"
+                                type="text"
+                                name="address"
+                                id="address"
+                                placeholder="Silk St"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="city">City</label>
+                            <input
+                                class="form-input"
+                                type="text"
+                                name="city"
+                                id="city"
+                                placeholder="London"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="state"
+                                >State<span style="color: #a1a2a4">
+                                    (optional)</span
+                                ></label
+                            >
+                            <input
+                                class="form-input"
+                                type="text"
+                                name="state"
+                                id="state"
+                                placeholder=""
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="zip-code"
+                                >ZIP code</label
+                            >
+                            <input
+                                class="form-input"
+                                type="text"
+                                name="zip-code"
+                                id="zip-code"
+                                placeholder="EC2Y &DS"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="country"
+                                >Country</label
+                            >
+                            <select
+                                class="form-input"
+                                id="country"
+                                name="country"
+                            >
+                                <option value="UK">United Kingdom</option>
+                                <option value="US">
+                                    United State of American
+                                </option>
+                            </select>
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <button class="submit-btn">SEND ME FREE COFFEE</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
