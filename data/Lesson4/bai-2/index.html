@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lesson 4 - Bài 1</title>
+        <link rel="stylesheet" href="./asset/css/style.css" />
+        <link rel="stylesheet" href="./asset/css/reset.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <main class="container">
+            <!-- Contact info -->
+            <div class="heading">
+                <h1>RESERVATION</h1>
+                <p>Book your table</p>
+            </div>
+
+            <!-- Contact form -->
+            <div class="contact-form">
+                <form action=" " autocomplete="off">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input
+                                class="form-input"
+                                type="text"
+                                name="first-name"
+                                id="first-name"
+                                placeholder="NAME"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                        <div class="form-group">
+                            <input
+                                class="form-input"
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="EMAIL"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input
+                                class="form-input"
+                                type="text"
+                                name="date"
+                                id="date"
+                                placeholder="DATE"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                        <div class="form-group">
+                            <input
+                                class="form-input"
+                                type="text"
+                                name="address"
+                                id="address"
+                                placeholder="TIME"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input
+                                class="form-input"
+                                type="number"
+                                name="people"
+                                id="people"
+                                placeholder="PEOPLE"
+                            />
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                        <div class="form-group">
+                            <button class="submit-btn">Find A Table</button>
+                            <p class="form-error">Vui lòng nhập trường này</p>
+                        </div>
+                    </div>
+                    <div class="form-row"></div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
