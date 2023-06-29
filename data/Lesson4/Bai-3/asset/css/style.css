@@ -70,7 +70,7 @@ input:nth-of-type(5):checked ~ nav ul li:nth-of-type(5) {
 
 .product-item {
     flex: 1;
-    position: relative;
+    /* position: relative; */
 }
 
 .cart-action {
