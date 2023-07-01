@@ -55,11 +55,8 @@ a {
     overflow: hidden;
 }
 
-/* ======== Featured ======== */
 .featured {
-    /* margin-top: 41px; */
-    /* height: 100vh; */
-    padding: 110px 0;
+    padding: 50px 0;
     background: #f5fafe;
 }
 
