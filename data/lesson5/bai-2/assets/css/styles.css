@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #f1f1f1;
+}
+
+.group-item {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collapsible {
+    background-color: #d95925;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    display: block;
+    position: relative;
+    margin-top: 5px;
+}
+
+.collapsible::before,
+.collapsible::after {
+    content: "";
+
+    display: inline-block;
+    background: #fff;
+}
+
+.collapsible::before {
+    height: 3px;
+    width: 15px;
+    margin-bottom: 3px;
+    margin-right: 8px;
+}
+
+.collapsible::after {
+    position: absolute;
+    height: 15px;
+    width: 3px;
+    top: 0 px;
+    left: 21px;
+}
+
+.group-item .checkbox[type="checkbox"]:checked ~ .collapsible::after {
+    display: none;
+}
+
+.checkbox[type="checkbox"]:checked ~ .content {
+    display: block;
+    overflow: hidden;
+    transition: height 200ms;
+}
+
+.content {
+    display: none;
+    background-color: #fff;
+    line-height: 1.5;
+}

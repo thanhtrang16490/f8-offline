@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lesson 5 - Bài số 1</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two:ital@1&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <div class="contact">
+            <header class="header">
+                <h2>Hey there</h2>
+                <p>
+                    <span>We'd like to hear from you.</span> Send us your
+                    message or just say hy with our <br />contact form or
+                    directly via phone, we love to chat.
+                </p>
+            </header>
+            <main>
+                <form class="contact-form" action="">
+                    <div class="group-input">
+                        <label for="name"
+                            ><i
+                                class="input-icon fa fa-user"
+                                aria-hidden="true"
+                                style="color: #fff"
+                            ></i
+                        ></label>
+
+                        <input
+                            class="input-item"
+                            type="text"
+                            placeholder="Your name"
+                            required
+                            id="name"
+                        />
+                        <i
+                            class="fa fa-star"
+                            aria-hidden="true"
+                            style="color: #000"
+                        ></i>
+
+                        <i
+                            class="fa fa-times"
+                            aria-hidden="true"
+                            style="color: #000"
+                        ></i>
+                        <p class="input-require">Enter your name</p>
+                    </div>
+
+                    <div class="group-input">
+                        <label for="email">
+                            <i
+                                class="input-icon fa fa-envelope"
+                                aria-hidden="true"
+                                style="color: #fff"
+                            ></i
+                        ></label>
+
+                        <input
+                            class="input-item"
+                            type="email"
+                            placeholder="your@domain.comn"
+                            required
+                            id="email"
+                        />
+                        <i
+                            class="fa fa-star"
+                            aria-hidden="true"
+                            style="color: #d2d2d2"
+                        ></i>
+                        <i
+                            class="fa fa-times"
+                            aria-hidden="true"
+                            style="color: #000"
+                        ></i>
+                        <p class="input-require">Enter your Email</p>
+                    </div>
+                    <div class="group-input">
+                        <label for="tel">
+                            <i
+                                class="input-icon fa fa-mobile fa-lg"
+                                aria-hidden="true"
+                                style="color: white"
+                                id="tel"
+                            ></i
+                        ></label>
+
+                        <input
+                            class="input-item"
+                            type="tel"
+                            placeholder="+44 00 123"
+                        />
+                    </div>
+                    <div class="group-input">
+                        <label>
+                            <i
+                                class="input-icon fa fa-file-text-o"
+                                aria-hidden="true"
+                                style="color: white"
+                            ></i
+                        ></label>
+
+                        <select class="input-item">
+                            <option value="0">Subject</option>
+                            <option value="1">Audi</option>
+                            <option value="2">BMW</option>
+                            <option value="3">Citroen</option>
+                        </select>
+                    </div>
+                    <div class="group-input">
+                        <label
+                            ><i
+                                class="input-icon fa fa-commenting"
+                                aria-hidden="true"
+                                style="color: white"
+                            ></i
+                        ></label>
+
+                        <textarea class="input-item" name="comment" form="">
+Message</textarea
+                        >
+                        <i
+                            class="fa fa-star"
+                            aria-hidden="true"
+                            style="color: #d2d2d2"
+                        ></i>
+                        <p class="input-require">Enter your name</p>
+                    </div>
+                    <div class="group-input">
+                        <div class="checkbox">
+                            <input id="send-copy" type="checkbox" hidden />
+                            <label for="send-copy" class="input-item-message"
+                                >Send me a copy of this message</label
+                            >
+                        </div>
+
+                        <button class="input-btn" type="submit">SEND</button>
+                    </div>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
