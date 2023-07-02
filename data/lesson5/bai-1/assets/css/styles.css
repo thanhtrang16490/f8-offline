@@ -180,18 +180,34 @@ textarea:focus ~ .fa-times {
 }
 
 /* CSS - Send copy */
-.input-item-message::before .input-item-message::after {
-    content: "";
+.message {
+    margin-left: 40px;
 }
 
-.input-item-message::before {
-    top: 0;
+.checkbox::before,
+.checkbox::before {
+    content: "";
+    display: inline-block;
+}
+
+.checkbox::before {
+    top: -6px;
     left: 0;
-    height: 30px;
-    width: 30px;
-    border: 3px solid #000;
-    background-color: #000;
+    width: 22px;
+    height: 22px;
+    border: 4px solid #d2d2d2;
     position: absolute;
+}
+
+.checkbox::after {
+    top: -2px;
+    left: 10px;
+    width: 4px;
+    height: 12px;
+    border-right: 4px solid #000;
+    border-bottom: 4px solid #000;
+    position: absolute;
+    rotate: 45deg;
 }
 
 /* CSS phần button */
