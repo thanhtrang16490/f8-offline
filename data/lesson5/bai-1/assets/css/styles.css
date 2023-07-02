@@ -184,13 +184,13 @@ textarea:focus ~ .fa-times {
     margin-left: 40px;
 }
 
-.checkbox::before,
-.checkbox::before {
+.checkbox label::before,
+.checkbox label::before {
     content: "";
     display: inline-block;
 }
 
-.checkbox::before {
+.checkbox label::before {
     top: -6px;
     left: 0;
     width: 22px;
@@ -199,7 +199,7 @@ textarea:focus ~ .fa-times {
     position: absolute;
 }
 
-.checkbox::after {
+.checkbox [type="checkbox"]:checked ~ label::after {
     top: -2px;
     left: 10px;
     width: 4px;
