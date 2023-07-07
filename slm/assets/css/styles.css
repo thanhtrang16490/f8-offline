@@ -162,7 +162,7 @@ button {
     height: 230px;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: rgb(0, 0, 0) 0px 15px 20px -20px;
 }
 
 .intro .number-item h3 {
@@ -207,4 +207,56 @@ button {
     background-color: #ee0034;
     padding: 10px;
     border-radius: 50%;
+}
+
+.intro .intro-brand {
+    display: flex;
+    width: 680px;
+    margin: 50px auto 0;
+    background-color: #f8f5f5;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0) 0px 15px 20px -20px;
+}
+
+.intro .intro-brand img {
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 4px solid #ee0034;
+}
+
+.intro .intro-brand p {
+    margin-left: 10px;
+    font-size: 19px;
+    color: #575757;
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.intro .intro-cta {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.intro .intro-cta h3 {
+    font-size: 2.3rem;
+    line-height: 3.7rem;
+    font-weight: 700;
+    color: #575757;
+    display: block;
+}
+
+.intro .intro-cta a {
+    margin: 20px auto 0;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    color: #ee0034;
+    border: 2px solid #ee0034;
+    background-color: #fff;
+    border-radius: 50px;
 }
