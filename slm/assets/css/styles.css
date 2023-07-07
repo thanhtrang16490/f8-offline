@@ -157,11 +157,54 @@ button {
 
 .intro .number-item {
     width: 425px;
-    text-align: center;
     background-color: #f8f5f5;
     color: #ee0034;
     height: 230px;
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.intro .number-item h3 {
+    text-align: center;
     font-weight: 700;
+    font-size: 20px;
+}
+
+.intro .number-item p {
+    font-size: 19px;
+    color: #575757;
+    margin-top: 20px;
+    display: block;
+    text-align: right;
+}
+
+.intro .number-item span {
+    font-size: 66px;
+    color: #ee0034;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.intro .number-item .item-row {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.intro .number-item .item-row p {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 19px;
+}
+
+.intro .number-item .item-row img {
+    height: 60px;
+    width: 60px;
+    background-color: #ee0034;
+    padding: 10px;
+    border-radius: 50%;
 }
