@@ -9,16 +9,15 @@ html {
 }
 
 body {
-    background: #f9f9fb;
+    /* background: #f9f9fb; */
 }
 
 body,
 input,
 button {
     font-size: 1.6rem;
-    font-family: "FuraCode Nerd Font", -apple-system, "system-ui",
-        BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "sans-serif",
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    font-family: "Open Sans", sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 /* Hero  */
@@ -26,14 +25,14 @@ button {
 .hero {
     background-image: url("../images/anh-3.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     height: 620px;
     position: relative;
 }
 
-.hero .main-content {
+.main-content {
     width: 1200px;
     max-width: calc(100% - 48px);
     margin-left: auto;
@@ -73,7 +72,7 @@ button {
 
 .hero .content-block {
     width: 60%;
-    color: red;
+    color: #ee0034;
     text-align: center;
 }
 
@@ -91,8 +90,9 @@ button {
 }
 
 .hero .content-block .heading-action span {
-    font-size: 3.5rem;
-
+    font-size: 4.1rem;
+    line-height: 37px;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
 .hero .content-block .desc {
@@ -108,15 +108,60 @@ button {
 .hero .content-block .cta a {
     margin-top: 10px;
     font-size: 20px;
+    line-height: 32px;
     text-decoration: none;
     font-weight: bold;
     color: #fff;
-    background-color: red;
+    background-color: #ee0034;
     text-align: center;
-    border-width: 3px solid red;
+    border-width: 3px solid #ee0034;
     border-radius: 56px;
     width: 242px;
     height: 56px;
     display: block;
-    padding: 18px;
+    padding-top: 12px;
+}
+
+/* Intro  */
+
+.intro {
+    padding: 20px 0;
+    /* background-color: #000; */
+}
+
+.intro .heading {
+    text-align: center;
+    font-size: 23px;
+    line-height: 37px;
+    color: #ee0034;
+    font-weight: 700;
+    position: relative;
+}
+
+.intro .heading::after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 350px;
+    border-bottom: 1px solid #ee0034;
+    left: 415px;
+}
+
+.intro .intro-row {
+    padding-top: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+}
+
+.intro .number-item {
+    width: 425px;
+    text-align: center;
+    background-color: #f8f5f5;
+    color: #ee0034;
+    height: 230px;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 700;
 }
