@@ -260,3 +260,115 @@ button {
     background-color: #fff;
     border-radius: 50px;
 }
+
+/* Feature  */
+
+.feature {
+    background-color: #ee0034;
+    padding-bottom: 50px;
+}
+
+.feature .heading {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.feature .heading h2 {
+    color: #fff;
+    font-size: 23px;
+    line-height: 1.6;
+    font-weight: 700;
+    position: relative;
+}
+
+.feature .heading h2::after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 350px;
+    border-bottom: 1px solid #fff;
+    top: 40px;
+    left: 415px;
+}
+
+.feature .heading p {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 26px;
+    padding-top: 20px;
+}
+
+.feature .feature-row {
+    display: flex;
+    margin: 20px 110px 0;
+}
+
+.feature .feature-info {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 26px;
+    padding: 0 20px;
+}
+
+.feature .feature-info ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+/* customer  */
+
+.customer .heading {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.customer .heading h2 {
+    color: #ee0034;
+    font-size: 23px;
+    line-height: 1.6;
+    font-weight: 700;
+    position: relative;
+}
+
+.customer .heading h2::after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 150px;
+    border-bottom: 1px solid #ee0034;
+    top: 40px;
+    left: 515px;
+}
+
+/* Partner  */
+
+.partner .heading {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.partner .heading h2 {
+    color: #ee0034;
+    font-size: 23px;
+    line-height: 1.6;
+    font-weight: 700;
+    position: relative;
+}
+
+.partner .heading h2::after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 350px;
+    border-bottom: 1px solid #ee0034;
+    top: 40px;
+    left: 430px;
+}
+
+.partner .heading p {
+    color: #000;
+    font-size: 1.6rem;
+    line-height: 26px;
+    padding-top: 20px;
+}
