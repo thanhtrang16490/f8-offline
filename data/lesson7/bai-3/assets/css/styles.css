@@ -73,7 +73,8 @@ body {
     line-height: 1.6;
 }
 
-.homes .location .nav .nav-link.active {
+.homes .location .nav .nav-link.active,
+.homes .location .nav .nav-link:hover {
     background: #b87926;
     color: #fff;
 }
