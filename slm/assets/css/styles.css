@@ -397,6 +397,7 @@ button {
 .partner .heading {
     text-align: center;
     padding-top: 60px;
+    padding-top: 20px;
 }
 
 .partner .heading h2 {
@@ -426,18 +427,17 @@ button {
 
 .partner .partner-group {
     display: flex;
+    align-items: center;
 }
 
 .partner .partner-group .item {
-    width: 150px;
-    height: 150px;
     flex-grow: 1;
     text-align: center;
-    /* background-color: red; */
+    padding-bottom: 60px;
 }
 
 .partner .partner-group .item .img {
-    height: 60px;
+    width: 170px;
 }
 
 /* Footer  */

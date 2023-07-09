@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html,
+body {
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Asap", sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #f4f2f0;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile .header {
+    background-image: url("https://cdn.houseviet.vn/images/company/tap-doan-vingroup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    height: 270px;
+}
+
+.profile .avatar {
+    height: 130px;
+    width: 206px;
+    position: absolute;
+    background-color: #fff;
+    left: 54px;
+    bottom: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.profile .avatar img {
+    position: absolute;
+    bottom: 0;
+    left: 44px;
+    width: 123px;
+}
+
+.profile .title {
+    position: absolute;
+    bottom: 90px;
+    left: 280px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 2px rgba(184, 121, 38, 0.5);
+}
+
+.profile .info {
+    position: absolute;
+    display: flex;
+    bottom: 50px;
+    left: 280px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4rem;
+    column-gap: 30px;
+}
+
+.profile .info-item {
+    display: flex;
+}
+
+.profile .info-item p {
+    align-self: last baseline;
+}
+
+.profile .info-item span {
+    margin-left: 5px;
+    font-size: 2rem;
+    align-self: last baseline;
+}
+
+.profile .nav {
+    height: 46px;
+    background-color: #fff;
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.15);
+}
+
+.profile .nav .menu {
+    display: flex;
+    column-gap: 28px;
+    justify-content: end;
+    margin-right: 66px;
+}
+
+.profile .nav .menu-item {
+    padding: 8px 0px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+
+.profile .nav .menu-item.active::before {
+    position: absolute;
+    content: "";
+    height: 0.4rem;
+    width: 100%;
+
+    background: #ef5350;
+    bottom: 0px;
+    left: 0px;
+}
+
+.profile .nav .menu-item a {
+    text-decoration: none;
+    color: #3f3424;
+    line-height: 3rem;
+}
+
+.profile .nav .menu-item.active a {
+    text-decoration: none;
+    color: #ef5350;
+}
