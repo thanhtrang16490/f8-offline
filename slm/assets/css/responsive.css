@@ -41,4 +41,12 @@
 }
 /* Mobile  */
 @media screen and (max-width: 767px) {
+    .customer .customer-row {
+        margin: 0 10px;
+    }
+
+    .footer .footer-row {
+        display: flex;
+        margin: 20px 10px 0;
+    }
 }

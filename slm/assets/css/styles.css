@@ -284,7 +284,7 @@ button {
 
 .intro .intro-brand {
     display: flex;
-    width: 680px;
+    max-width: 680px;
     margin: 50px auto 0;
     background-color: #f8f5f5;
     padding: 20px;
@@ -433,6 +433,7 @@ button {
     width: 288px;
     position: relative;
     flex-grow: 1;
+    margin: 10px 0;
 }
 .customer .customer-item .img {
     height: 60px;
