@@ -49,6 +49,19 @@
         display: none;
     }
 
+    .intro .number-item span {
+        font-size: 48px;
+    }
+
+    .intro .number-item .item-row img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .intro .number-item .item-row p {
+        font-size: 13px;
+    }
+
     .feature .heading h2::after {
         display: none;
     }
