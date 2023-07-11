@@ -159,6 +159,33 @@ button {
 
 /* Price  */
 
+.price .row {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.price .group-item {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.price .group-item .item-row {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    padding: 10px;
+}
+
+.price .group-item .item-row .fa-circle-check {
+    color: green;
+}
+
+.price .group-item .item-row .fa-circle-xmark {
+    color: red;
+}
+
 /* Intro  */
 
 .intro {
