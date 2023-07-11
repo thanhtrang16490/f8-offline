@@ -141,7 +141,7 @@ button {
 .number .group-item .item .img {
     position: absolute;
     top: 20px;
-    lef: 0;
+    left: 0;
     width: 50px;
 }
 
@@ -178,6 +178,13 @@ button {
     padding: 10px;
 }
 
+.price .group-item .item .item-row img {
+    height: 30px;
+}
+
+.price .group-item .item .item-row img:nth-child(2) {
+    margin-left: auto;
+}
 .price .group-item .item-row .fa-circle-check {
     color: green;
 }
