@@ -45,6 +45,22 @@
         display: none;
     }
 
+    .intro .heading::after {
+        display: none;
+    }
+
+    .feature .heading h2::after {
+        display: none;
+    }
+
+    .customer .heading h2::after {
+        display: none;
+    }
+
+    .partner .heading h2::after {
+        display: none;
+    }
+
     .customer .customer-row {
         margin: 0 10px;
     }
