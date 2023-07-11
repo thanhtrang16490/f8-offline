@@ -132,9 +132,11 @@ button {
     align-items: center;
     justify-content: space-evenly;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .number .group-item .item {
+    position: relative;
     display: block;
 }
 
@@ -162,13 +164,19 @@ button {
 .price .row {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .price .group-item {
-    border: 2px solid red;
+    border: 1px solid transparent;
     border-radius: 10px;
     padding: 10px;
     flex-grow: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.price .group-item:hover {
+    border: 1px solid red;
 }
 
 .price .group-item .item-row {
@@ -215,6 +223,7 @@ button {
     padding-top: 40px;
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
     justify-content: center;
     position: relative;
 }
@@ -364,6 +373,7 @@ button {
 
 .feature .feature-row {
     display: flex;
+    flex-wrap: wrap;
     margin: 20px 110px 0;
 }
 
@@ -381,6 +391,9 @@ button {
 }
 
 /* customer  */
+.customer {
+    background-color: #f5fafe;
+}
 
 .customer .heading {
     text-align: center;
@@ -407,18 +420,19 @@ button {
 
 .customer .customer-row {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 17px;
     margin: 30px 150px;
-    flex-grow: 1;
 }
 
 .customer .customer-row .customer-item {
-    background: #f0f0f0;
-    border: 1px solid #000;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 20px;
     padding: 15px;
     width: 288px;
     position: relative;
+    flex-grow: 1;
 }
 .customer .customer-item .img {
     height: 60px;
@@ -447,13 +461,6 @@ button {
     font-size: 14px;
     line-height: 22px;
     text-align: justify;
-}
-
-.customer .customer-item .btn {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    color: #107d91;
 }
 
 /* Partner  */
@@ -491,7 +498,9 @@ button {
 
 .partner .partner-group {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
 
 .partner .partner-group .item {
