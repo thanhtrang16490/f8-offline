@@ -122,6 +122,43 @@ button {
     padding-top: 12px;
 }
 
+/* Number  */
+.number {
+    padding: 50px 0;
+}
+
+.number .group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.number .group-item .item {
+    display: block;
+}
+
+.number .group-item .item .img {
+    position: absolute;
+    top: 20px;
+    lef: 0;
+    width: 50px;
+}
+
+.number .group-item .item h3 {
+    padding-top: 20px;
+    margin-left: 70px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #f15623;
+}
+.number .group-item .item p {
+    margin-left: 70px;
+    color: #848d95;
+}
+
+/* Price  */
+
 /* Intro  */
 
 .intro {
