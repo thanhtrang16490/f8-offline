@@ -178,13 +178,6 @@ button {
     padding: 10px;
 }
 
-.price .group-item .item .item-row img {
-    height: 30px;
-}
-
-.price .group-item .item .item-row img:nth-child(2) {
-    margin-left: auto;
-}
 .price .group-item .item-row .fa-circle-check {
     color: green;
 }
