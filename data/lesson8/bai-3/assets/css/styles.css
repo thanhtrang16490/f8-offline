@@ -51,8 +51,8 @@ body {
 }
 
 .service-item {
-    padding-top: 20px;
-    width: 320px;
+    padding-top: 10px;
+    width: 300px;
     text-align: center;
 }
 
@@ -60,7 +60,7 @@ body {
     height: 9%;
     width: 90px;
     display: inline-block;
-    margin-bottom: -20px;
+    margin-bottom: -5px;
 }
 
 .service-item .sub-title {
@@ -72,8 +72,8 @@ body {
 }
 
 .service-item .desc {
-    margin-top: 15px;
-    font-size: 1.2rem;
+    margin-top: 10px;
+    font-size: 1.1rem;
     line-height: 1.4;
     font-weight: 300;
     color: #a4a6a7;
