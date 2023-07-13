@@ -30,16 +30,16 @@ body {
 }
 
 .service .sub-title {
-    font-weight: 400;
-    font-size: 3rem;
+    font-weight: 500;
+    font-size: 3.2rem;
     text-align: center;
+    font-family: "Playfair Display", serif;
 }
 
 .service .desc {
     margin-top: 16px;
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-align: center;
-    color: #a4a6a7;
 }
 
 .list-service {
@@ -51,31 +51,28 @@ body {
 }
 
 .service-item {
-    width: 350px;
+    width: 320px;
     padding: 10px;
     text-align: center;
 }
 
-.service-item .img {
-    margin-top: 25px;
-    height: 110px;
-    width: 110px;
-
+.service-item img {
+    height: 9%;
+    width: 90px;
     display: inline-block;
-    border-radius: 50%;
-    color: #ed9a37;
 }
 
 .service-item .sub-title {
-    /* margin-top: 30px; */
-    font-weight: 400;
-    font-size: 3rem;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 1.6rem;
     text-align: center;
+    font-family: "Playfair Display", serif;
 }
 
 .service-item .desc {
-    margin-top: 26px;
-    font-size: 1.3rem;
+    margin-top: 15px;
+    font-size: 1.2rem;
     line-height: 1.4;
     font-weight: 300;
     color: #a4a6a7;
@@ -84,13 +81,13 @@ body {
 
 .btn {
     width: 105px;
-    height: 30px;
+
     text-decoration: none;
     color: #fff;
     background-color: #29378e;
     display: inline-block;
     text-align: center;
     margin-top: 30px;
-    padding: 14px;
-    font-size: 1.2rem;
+    padding: 10px;
+    font-size: 1.1rem;
 }
