@@ -69,7 +69,7 @@ body {
     transition-duration: 500ms;
 }
 
-.profile .container .content-left .item:hover .tag {
+.profile .container .content-left .row-item:hover .tag {
     background-color: #a26f5a;
     color: #fff;
 }
@@ -127,9 +127,86 @@ body {
     flex-grow: 1;
     height: 380px;
     width: 400px;
-    background-image: url(../images/right-image.png);
-    background-position: -630px -10px;
+    position: relative;
+}
+
+.profile .container .content-right .img-1 {
+    height: 296px;
+    width: 320px;
+    background-image: url("https://fastly.picsum.photos/id/111/400/380.jpg?hmac=I3LjuZUPae-F1gLclr813x25g1SibafRtdc270b34sY");
+    background-position: -80px 0px;
     background-repeat: repeat;
     display: block;
-    background-size: 1200px 567px;
+    background-size: 400px 380px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.profile .container .content-right .img-2 {
+    height: 296px;
+    width: 184px;
+    background-image: url("https://fastly.picsum.photos/id/111/400/380.jpg?hmac=I3LjuZUPae-F1gLclr813x25g1SibafRtdc270b34sY");
+    background-position: 0px -80px;
+    background-repeat: repeat;
+    display: block;
+    background-size: 400px 380px;
+    position: absolute;
+    right: 215px;
+    top: 80px;
+}
+
+.profile .container .content-right .img-3 {
+    height: 296px;
+    width: 184px;
+    position: absolute;
+    right: 215px;
+    top: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+}
+
+.profile .container .content-right .img-4 {
+    height: 278px;
+    width: 166px;
+    background-repeat: repeat;
+    display: block;
+    background-color: rgba(64, 89, 173, 0.92);
+    position: absolute;
+    right: 224px;
+    top: 89px;
+}
+
+.profile .container .content-right .img-5 {
+    height: 296px;
+    width: 184px;
+    background-image: url("https://fastly.picsum.photos/id/111/400/380.jpg?hmac=I3LjuZUPae-F1gLclr813x25g1SibafRtdc270b34sY");
+    background-position: 0px -80px;
+    background-repeat: repeat;
+    display: block;
+    background-size: 400px 380px;
+    position: absolute;
+    right: 215px;
+    top: 80px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 5rem;
+}
+
+.profile .container .content-right .img-5 .title {
+    font-family: "Space Grotesk", sans-serif;
+    text-align: right;
+    margin: 190px 30px 0 0px;
+    font-weight: 700;
+}
+
+.profile .container .content-right .img-5 .sub-title {
+    text-align: right;
+    margin: 0 30px 0 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffffde;
 }
