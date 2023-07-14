@@ -95,7 +95,7 @@ body {
     border: 1px solid green;
 }
 
-.contact-form .row .item select {
+.contact-form .row .item .select-box {
     width: 100%;
     height: 68px;
     padding: 0 25px;
@@ -103,6 +103,7 @@ body {
     border: 1px solid #eceef3;
     font-size: 2rem;
     color: #9ca2ad;
+    outline: none;
 }
 
 .contact-form .row .item option {
