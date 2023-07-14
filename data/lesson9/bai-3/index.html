@@ -30,33 +30,42 @@
                             <form class="contact-form" action="">
                                 <div class="row">
                                     <div class="item">
-                                        <label for="first-name"
-                                            >First Name *</label
-                                        >
-                                        <input type="text" id="first-name" />
+                                        <input
+                                            type="text"
+                                            id="first-name"
+                                            required="required"
+                                        />
+                                        <span>First Name *</span>
                                     </div>
 
                                     <div class="item">
-                                        <label for="last-name"
-                                            >Last Name *</label
-                                        >
-                                        <input type="text" id="last-name" />
+                                        <input
+                                            type="text"
+                                            id="last-name"
+                                            required="required"
+                                        />
+                                        <span>Last Name *</span>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="item">
-                                        <label for="first-name">Email *</label>
-                                        <input type="text" id="first-name" />
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            required="required"
+                                        />
+                                        <span>Email *</span>
                                     </div>
 
                                     <div class="item">
-                                        <label for="last-name">Sales</label>
                                         <div class="select">
                                             <select>
                                                 <option value="0">
                                                     Select department:
                                                 </option>
-                                                <option value="1">Sales</option>
+                                                <option selected value="1">
+                                                    Sales
+                                                </option>
                                                 <option value="2">
                                                     Marketing
                                                 </option>
@@ -71,21 +80,19 @@
                                 <div class="row">
                                     <div class="item">
                                         <div class="message">
-                                            <label for="message"
-                                                >Message *</label
-                                            >
                                             <textarea
                                                 name=""
                                                 id="message"
                                                 rows="10"
                                             ></textarea>
+                                            <span>Message *</span>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="item">
-                                        <button class="btn">
+                                        <button class="btn" type="submit">
                                             Send message
                                         </button>
                                     </div>

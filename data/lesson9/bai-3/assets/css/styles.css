@@ -28,7 +28,7 @@ body {
 
 .contact {
     width: 1050px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .container .heading {
@@ -63,11 +63,20 @@ body {
     position: relative;
 }
 
-.contact-form .row .item label {
+.item {
+}
+
+.contact-form .row .item span {
     position: absolute;
     top: 26px;
     left: 25px;
     color: #999faa;
+    pointer-events: none;
+}
+.contact-form .row .item input:focus ~ span,
+.contact-form .row .item input:valid ~ span {
+    top: 5px;
+    font-size: 1.4rem;
 }
 
 .contact-form .row .item input {
@@ -77,6 +86,13 @@ body {
     border-radius: 10px;
     border: 1px solid #eceef3;
     font-size: 2rem;
+    outline: none;
+    font-family: "Inter", sans-serif;
+}
+
+.contact-form .row .item input:focus,
+.contact-form .row .item input:valid {
+    border: 1px solid green;
 }
 
 .contact-form .row .item select {
@@ -86,6 +102,12 @@ body {
     border-radius: 10px;
     border: 1px solid #eceef3;
     font-size: 2rem;
+    color: #9ca2ad;
+}
+
+.contact-form .row .item option {
+    font-size: 2rem;
+    color: #9ca2ad;
 }
 
 .contact-form .row textarea {
@@ -94,6 +116,15 @@ body {
     border: 1px solid #eceef3;
     font-size: 2rem;
     padding: 25px;
+}
+
+.contact-form .row .item textarea:focus {
+    border: 1px solid green;
+}
+
+.contact-form .row .item textarea:focus ~ span {
+    top: 5px;
+    font-size: 1.4rem;
 }
 
 .contact-form .row .btn {
@@ -106,4 +137,10 @@ body {
     margin: 0 auto;
     display: block;
     font-size: 2rem;
+    cursor: pointer;
+}
+
+.contact-form .row .btn:hover {
+    color: #fff;
+    background-color: #4d77d8d1;
 }

@@ -186,14 +186,13 @@ body {
 }
 
 .work-item__more {
-    display: block;
+    /* display: block; */
     margin: 16px 0;
     font-size: 1.4rem;
     text-decoration: none;
     color: #fff;
     position: absolute;
     top: 175px;
-
     transition-property: opacity top;
     transition-duration: 0.3s;
 }
@@ -201,4 +200,33 @@ body {
 .work__item:hover .work-item__more {
     top: 160px;
     opacity: 1;
+}
+
+.fa-solid {
+    /* display: block; */
+    margin: 16px 0;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 175px;
+    left: 120px;
+    transition-property: opacity top;
+    transition-duration: 0.3s;
+}
+
+.work__item:hover .fa-solid {
+    top: 160px;
+    opacity: 1;
+}
+
+.work__item:hover .fa-solid::after {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    top: -4px;
+    left: -4px;
+    border: 1px solid #fff;
+    border-radius: 99px;
 }
