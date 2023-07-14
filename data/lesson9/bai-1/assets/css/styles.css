@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html,
+body {
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+    /* font-family: 'Space Grotesk', sans-serif; */
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile .container {
+    display: flex;
+    margin: 10px 150px;
+    justify-items: flex-start;
+}
+
+.profile .container .content-left {
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 270px;
+}
+
+.profile .container .content-left .item {
+    padding-bottom: 50px;
+}
+
+.profile .container .content-left .title {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.profile .container .content-left .sub-title {
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    color: #838386;
+    padding-bottom: 10px;
+}
+
+.profile .container .content-left .tag {
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+    line-height: 1.2;
+    color: #838386;
+    font-weight: 500;
+    background-color: #f2f2f2;
+    padding: 3px 8px;
+    border-radius: 99px;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+
+.profile .container .content-left .item:hover .tag {
+    background-color: #a26f5a;
+    color: #fff;
+}
+
+.profile .container .content-left .time {
+    width: 100px;
+    position: relative;
+}
+
+.profile .container .content-left .time span.dot {
+    height: 6px;
+    width: 6px;
+    background-color: #49a092;
+    left: 230px;
+    top: -83px;
+    text-align: left;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.profile .container .content-left .time span.dot::before {
+    content: "";
+    height: 14px;
+    width: 14px;
+    background-color: #49a09169;
+    left: -4px;
+    top: -4px;
+    text-align: left;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.profile .container .content-left .time span.line {
+    height: 100px;
+    width: 1px;
+    background-color: #f4f4f7;
+    left: 232px;
+    top: -65px;
+    text-align: left;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.profile .container .content-left .time .year {
+    position: absolute;
+    left: 250px;
+    width: 100px;
+    top: -85px;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #78787c;
+}
+
+.profile .container .content-right {
+    flex-grow: 1;
+    height: 380px;
+    width: 400px;
+    background-image: url(../images/right-image.png);
+    background-position: -630px -10px;
+    background-repeat: repeat;
+    display: block;
+    background-size: 1200px 567px;
+}
