@@ -906,8 +906,8 @@ tr:nth-child(even) {
 }
 
 .project .row .item-1 {
-    width: 330px;
-    height: 630px;
+    width: 260px;
+    height: 500px;
     background-image: url(../images/phone-image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -933,7 +933,7 @@ tr:nth-child(even) {
     bottom: 0px;
     background-color: transparent;
     color: #f15623;
-    padding-top: 5px;
+    bottom: -15px;
 }
 
 .project .row .item-1 p::before {
