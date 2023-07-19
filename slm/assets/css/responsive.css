@@ -180,25 +180,32 @@
     /* project  */
 
     .project {
-        height: 100%;
-        margin: 0 10px;
+        margin: 10px 10px;
     }
 
     .project .row {
         display: grid;
-        grid-template-columns: 440px auto auto;
-        grid-column-gap: 20px;
-        grid-row-gap: 40px;
+        grid-template-columns: 300px;
+        grid-template-rows: 200px;
+        grid-column-gap: 50px;
+        grid-row-gap: 20px;
         grid-template-areas:
-            "item-1"
             "item-2"
             "item-3"
             "item-4"
             "item-5";
     }
 
-    .project .row .col img {
-        max-width: 100%;
+    .project .row .col {
+        height: 250px;
+        width: 370px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .project .row .item-1 {
+        height: 650px;
+        width: 360px;
+        display: none;
     }
 
     .customer .heading h2::after {

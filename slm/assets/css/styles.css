@@ -865,26 +865,34 @@ tr:nth-child(even) {
 /* projcet  */
 
 .project {
-    margin-top: 50px;
-    height: 690px;
+    margin: 50px;
+    height: 100%;
 }
 
 .project .row .item-1 {
     grid-area: item-1;
-    width: 100%;
+    background-image: url(../images/phone.png);
+}
+
+.project .row .col {
+    background-position: center;
 }
 
 .project .row .item-2 {
     grid-area: item-2;
+    background-image: url(../images/pj1.png);
 }
 .project .row .item-3 {
     grid-area: item-3;
+    background-image: url(../images/pj2.png);
 }
 .project .row .item-4 {
     grid-area: item-4;
+    background-image: url(../images/pj3.png);
 }
 .project .row .item-5 {
     grid-area: item-5;
+    background-image: url(../images/pj4.png);
 }
 
 .project .row .col {
@@ -906,20 +914,26 @@ tr:nth-child(even) {
 }
 
 .project .row .col p {
-    /* display: block; */
     width: 100%;
     height: 30px;
     font-style: italic;
-    color: #233048;
     text-align: center;
-    position: absolute;
-    bottom: -13%;
     left: 50%;
     transform: translateX(-50%);
+    position: absolute;
+    bottom: 0px;
+    background-color: #f15623;
+    color: #fff;
+    padding-top: 5px;
+    z-index: 1;
 }
 
 .project .row .item-1 p {
-    top: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: transparent;
+    color: #f15623;
+    padding-top: 5px;
 }
 
 .project .row .item-1 p::before {
@@ -946,9 +960,10 @@ tr:nth-child(even) {
 
 .project .row {
     display: grid;
-    grid-template-columns: 440px auto auto;
+    grid-template-columns: auto 350px 350px;
+    grid-template-rows: 250px 250px;
     grid-column-gap: 20px;
-    grid-row-gap: 40px;
+    grid-row-gap: 20px;
     grid-template-areas:
         "item-1 item-2 item-3"
         "item-1 item-4 item-5";
