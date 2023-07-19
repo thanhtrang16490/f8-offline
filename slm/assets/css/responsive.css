@@ -54,7 +54,7 @@
 /* Mobile  */
 @media screen and (max-width: 767px) {
     .hero {
-        height: 100vh;
+        height: 800px;
     }
 
     .hero .img-1 {
@@ -68,9 +68,11 @@
     }
 
     .hero .img-3 {
-        height: 402px;
+        position: absolute;
+        height: 355px;
         transform: translateX(-33%);
         background-size: 330px auto;
+        bottom: 0;
     }
 
     .hero .title {
