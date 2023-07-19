@@ -47,18 +47,18 @@ button {
     justify-content: space-between;
 }
 
-.hero .img {
+.hero .img-1 {
     background-image: url(../images/hero.jpeg);
     height: 300px;
     width: 300px;
-    background-size: 433px auto;
+    background-size: 450px auto;
     background-repeat: no-repeat;
     background-position: 75% 0%;
     border-radius: 10px;
     position: relative;
 }
 
-.hero .img::before {
+.hero .img-1::before {
     position: absolute;
     content: "";
     height: 320px;
@@ -72,7 +72,7 @@ button {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.hero .img::after {
+.hero .img-1::after {
     position: absolute;
     content: "";
     height: 320px;
@@ -98,9 +98,17 @@ button {
 }
 
 .hero .img-3 {
+    background-image: url("../images/worker.png");
+    height: 485px;
+    width: 480px;
+    background-size: 450px auto;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: 0px 0px;
     position: absolute;
-    bottom: -2px;
-    left: 45%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-20%);
 }
 
 .hero .img-4 {

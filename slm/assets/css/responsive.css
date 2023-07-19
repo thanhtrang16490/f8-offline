@@ -54,47 +54,35 @@
 /* Mobile  */
 @media screen and (max-width: 767px) {
     .hero {
+        height: 100%;
     }
 
-    .hero .media-block .media .img-1 {
+    .hero .img-1 {
         display: none;
     }
 
-    .hero .media-block .media .img-2 {
-        height: 300px;
-        left: 50%;
+    .hero .img-2 {
+        background-position: -34px 100px;
+        background-size: 455px auto;
     }
 
-    .hero .content-block .heading {
+    .hero .img-3 {
+        height: 355px;
+        transform: translateX(-33%);
+        background-size: 330px auto;
+    }
+
+    .hero .title {
         position: absolute;
-        top: 50px;
-        left: 10%;
-        padding: 0;
-        margin-left: 0px;
+        top: 0;
     }
-
-    .hero .content-block .heading-action {
+    .hero .title h2::before,
+    .hero .title h2::after {
+        display: none;
+    }
+    .hero .group-item {
         position: absolute;
-        top: 80px;
-        left: 10%;
-        font-size: 16px;
-    }
-
-    .hero .content-block .heading-action span {
-        font-size: 28px;
-    }
-
-    .hero .content-block .desc {
-        position: absolute;
-        top: 120px;
-        left: 12%;
-        font-size: 16px;
-    }
-
-    .hero .content-block .cta {
-        position: absolute;
-        top: 200px;
-        left: 20%;
+        top: 10px;
     }
 
     .number {
