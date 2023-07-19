@@ -25,6 +25,8 @@ button {
     margin: 0 auto;
 }
 
+/* header  */
+
 /* Hero  */
 
 .hero {
@@ -370,6 +372,7 @@ button {
     display: flex;
     align-items: center;
     padding-top: 7px;
+    position: relative;
 }
 
 .product .row .product-item .item .title {
@@ -479,6 +482,113 @@ button {
     background-size: contain;
 }
 
+.product .row .product-item .item .item-row .brand-1 {
+    background-image: url(../images/longi-logo.png);
+    height: 35px;
+    width: 90px;
+    margin: 0 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 25px;
+}
+.product .row .product-item .item .item-row .brand-2 {
+    background-image: url(../images/ja-solar-logo.png);
+    height: 35px;
+    width: 120px;
+    /* margin: 0 10px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 35px;
+    left: 110px;
+}
+
+.product .row .product-item .item .item-row .brand-3 {
+    background-image: url(../images/canadian-solar-logo.png);
+    height: 95px;
+    width: 120px;
+    /* margin: 0 10px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+
+    top: 3px;
+    left: 240px;
+}
+
+.product .row .product-item .item .item-row .brand-4 {
+    background-image: url(../images/huawei-logo.png);
+    height: 45px;
+    width: 120px;
+    /* margin: 0 10px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+.product .row .product-item .item .item-row .brand-5 {
+    background-image: url(../images/luxpower-logo.png);
+    height: 35px;
+    width: 120px;
+    /* margin: 0 10px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 33px;
+    left: 140px;
+}
+
+.product .row .product-item .item .item-row .brand-6 {
+    background-image: url(../images/deyee-logo.png);
+    height: 35px;
+    width: 120px;
+    /* margin: 0 10px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 28px;
+    left: 280px;
+}
+
+.product .row .product-item .item .item-row .brand-7 {
+    background-image: url(../images/growatt-logo.png);
+    height: 35px;
+    width: 120px;
+    /* margin: 0 10px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+.product .row .product-item .item .item-row .brand-8 {
+    background-image: url(../images/luxpower-logo.png);
+    height: 35px;
+    width: 120px;
+    /* margin: 0 10px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 33px;
+    left: 140px;
+}
+
+.product .row .product-item .item .item-row .brand-9 {
+    background-image: url(../images/sve-logo.png);
+    height: 30px;
+    width: 120px;
+    /* margin: 0 10px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 23px;
+    left: 280px;
+}
+
 .product .row .product-item .item-row p {
     color: #233048;
     font-style: italic;
@@ -495,8 +605,9 @@ caption {
 }
 
 table {
-    width: 100%;
+    width: 1200px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow-x: scroll;
 }
 table span {
     color: #f15623;
