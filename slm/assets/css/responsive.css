@@ -116,6 +116,44 @@
         padding-top: 0;
     }
 
+    /* Product  */
+    .product {
+        margin: 0 10px;
+    }
+
+    .product .row {
+        gap: 5px;
+    }
+    .product .row .product-item {
+        display: block;
+    }
+
+    .product .row .product-item .media {
+        width: 100%;
+    }
+
+    .brand-1,
+    .brand-2,
+    .brand-3,
+    .brand-4,
+    .brand-5,
+    .brand-6,
+    .brand-7,
+    .brand-8,
+    .brand-9 {
+        display: none;
+    }
+    /* Table  */
+
+    .table {
+        overflow-x: scroll;
+        max-width: 100%;
+    }
+
+    td {
+        width: 220px;
+    }
+
     /* Intro  */
     .intro .heading::after {
         display: none;
@@ -137,6 +175,30 @@
 
     .feature .heading h2::after {
         display: none;
+    }
+
+    /* project  */
+
+    .project {
+        height: 100%;
+        margin: 0 10px;
+    }
+
+    .project .row {
+        display: grid;
+        grid-template-columns: 440px auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 40px;
+        grid-template-areas:
+            "item-1"
+            "item-2"
+            "item-3"
+            "item-4"
+            "item-5";
+    }
+
+    .project .row .col img {
+        max-width: 100%;
     }
 
     .customer .heading h2::after {
