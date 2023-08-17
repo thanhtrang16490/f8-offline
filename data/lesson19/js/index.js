@@ -46,6 +46,8 @@ function filter(arr) {
     return newArray;
 }
 
-const final = filter(inputArray).sort();
+var final = filter(inputArray).sort();
 
-console.log("Mảng mới loại bỏ trùng:", final);
+console.log("Mảng mới:", final);
+
+// bài 4
