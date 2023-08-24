@@ -74,13 +74,21 @@ function createStudents(students) {
     }
 }
 
-const students = [
+var students = [
     { name: "Nguyễn Văn A", age: 11, address: "Ha Noi" },
     { name: "Nguyễn Văn B", age: 2, address: "Hai Phong" },
     { name: "Nguyễn Văn C", age: 12, address: "TP.HCM" },
 ];
 
-const result = createStudents(students);
+var result = createStudents(students);
 console.log(result);
 
 // Bài 3
+
+var User = function (name, password, email) {
+    this.name = name;
+    this.password = password;
+    this.email = email;
+};
+
+const userData = [];
