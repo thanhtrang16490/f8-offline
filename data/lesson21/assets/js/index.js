@@ -93,18 +93,6 @@ var User = function (name, password, email) {
 
 const data = [];
 
-const dataRegister = handleRegister(
-    "Nguyen Van A",
-    "123456",
-    "nguyenvana@email.com"
-);
-const dataRegister = handleRegister(
-    "Nguyen Van B",
-    "1234567",
-    "nguyenvanb@email.com"
-);
-const dataLogin = handleLogin("Nguyen Van B", "1234567");
-
 function handleRegister(name, password, email) {
     if (!name || !password || !email) {
         console.log("Please enter enough information");
@@ -140,3 +128,18 @@ function handleLogin(email, password) {
         return;
     }
 }
+
+var dataRegister = handleRegister(
+    "Nguyen Van A",
+    "123456",
+    "nguyenvana@email.com"
+);
+var dataRegister = handleRegister(
+    "Nguyen Van B",
+    "1234567",
+    "nguyenvanb@email.com"
+);
+var dataLogin = handleLogin("Nguyen Van B", "1234567");
+
+console.log(dataRegister);
+console.log(dataLogin);
