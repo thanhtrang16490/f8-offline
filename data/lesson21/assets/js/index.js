@@ -91,7 +91,7 @@ var User = function (name, password, email) {
     this.email = email;
 };
 
-const data = [];
+var data = [];
 
 function handleRegister(name, password, email) {
     if (!name || !password || !email) {
