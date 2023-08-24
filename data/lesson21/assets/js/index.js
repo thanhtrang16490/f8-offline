@@ -92,6 +92,7 @@ var User = function (name, password, email) {
 };
 
 const data = [];
+
 const dataRegister = handleRegister(
     "Nguyen Van A",
     "123456",
@@ -103,3 +104,39 @@ const dataRegister = handleRegister(
     "nguyenvanb@email.com"
 );
 const dataLogin = handleLogin("Nguyen Van B", "1234567");
+
+function handleRegister(name, password, email) {
+    if (!name || !password || !email) {
+        console.log("Please enter enough information");
+        return;
+    }
+    var newUser = new User(name, password, email);
+    newUser.role = "user";
+    if (data.length === 0) {
+        data.push(newUser);
+    } else {
+        for (var i = 0; i < data.length; i++) {
+            if (data[i].email === email) {
+                console.log("Email exists!");
+                return;
+            } else if (data[i].name === name) {
+                console.log("User name exists!");
+                return;
+            }
+        }
+        data.push(newUser);
+    }
+    return data;
+}
+
+function handleLogin(email, password) {
+    var checkInfo = data.find((info) => {
+        return info.email === email && info.password === password;
+    });
+    if (checkInfo) {
+        return checkInfo;
+    } else {
+        console.log("Invalid field");
+        return;
+    }
+}
