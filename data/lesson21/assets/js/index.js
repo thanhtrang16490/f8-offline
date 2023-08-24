@@ -91,4 +91,15 @@ var User = function (name, password, email) {
     this.email = email;
 };
 
-const userData = [];
+const data = [];
+const dataRegister = handleRegister(
+    "Nguyen Van A",
+    "123456",
+    "nguyenvana@email.com"
+);
+const dataRegister = handleRegister(
+    "Nguyen Van B",
+    "1234567",
+    "nguyenvanb@email.com"
+);
+const dataLogin = handleLogin("Nguyen Van B", "1234567");
